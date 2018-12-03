@@ -1,0 +1,23 @@
+{
+	"name": "demo-html-static",
+	"description": "Demo static html server",
+	"version": "0.0.1",
+	"author": "Tim",
+	"dependencies": {
+		"body-parser": "^1.18.3",
+		"express": "^4.16.4",
+		"node-gcm": "^1.0.0"
+	},
+	"scripts": {
+		"start": "node api.js",
+		"postinstall": "npm run start"
+	},
+	"devDependencies": {
+		"autoprefixer": "^8.5.0",
+		"postcss-cli": "^5.0.0"
+	},
+	"engines": {
+		"node": ">=8.11.2"
+	},
+	"license": "MIT"
+}
