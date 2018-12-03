@@ -1,1 +1,3 @@
-# myTrunk4NodeThis my trunk for NodeJS static web server demos.
+# myTrunk4Node
+
+Trunk for NodeJS static web server demos.
