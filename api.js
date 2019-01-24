@@ -7,7 +7,8 @@ var app = express();
 //#app.use(bodyParser.json());
 
 //app.use(express.static("WebContent"));
-app.use(express.static("cocos_dou"))
+//app.use(express.static("cocos_dou"))
+app.use(express.static("AnimalContent"))
 app.listen(8887,'192.168.56.201');
 console.log("HTML Server Started!Port 8887");
 
