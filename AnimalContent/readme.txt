@@ -1,0 +1,1 @@
+index.html => revised from multi_card_ui.jsp.
