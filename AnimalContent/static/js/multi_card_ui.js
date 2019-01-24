@@ -60,7 +60,10 @@ function exit(){
 function onLoad(){
 	    var productItem = $('.product');
 	    var productCurrentItem = productItem.first();
+            //var tabItem = $('.ui-btn-active');
+            //var tabCurrentTab = tabItem.first();
 	    productCurrentItem.addClass('active');
+            //tabCurrentTab.addClass('active');
 	    var getProductHeight = $('.product.active').height();
 	    initial();
         function initial(){
@@ -70,6 +73,7 @@ function onLoad(){
             $('.products').css({ height: getProductHeight });
             animateContentColor();
             productCurrentItem = productItem.filter('.active');
+            //tabCurrentItem = tabItem.filter('.active');
         }
 
 	    function calcProductHeight() {

@@ -27,7 +27,7 @@
     <h1>jQuery Mobile Example</h1>
   </div>
     <div role="main" class="ui-content">
-    <div data-role="tabs" id="dynamic-component-demo" class="demo">
+    <div data-role="tabs" id="dynamic-component-demo">
 
       <div style="display:none">
 	  	<audio id="my-player" preload="auto" hidden=true>
@@ -45,7 +45,7 @@
 	   <ul>
 	      <li v-for="tab in tabs" v-bind:key="tab">
 <!--  <a v-bind:href="'#' + 'tab-' + currentTab.toLowerCase()" v-bind:class="['ui-btn-active',{active:currentTab === tab}]" v-on:click="currentTab = tab">{{tab}}</a> -->
-	  	  <a v-bind:class="['ui-btn',{active:currentTab === tab}]" v-on:click="currentTab = tab" >{{tab}}</a>
+	  	  <a v-bind:class="ui-btn" v-on:click="currentTab = tab" >{{tab}}</a>
 	      </li>
 <!--           <li><a href="#fragment-1" class="ui-btn-active">One</a></li> -->
         </ul>
