@@ -134,7 +134,10 @@ var vm = new Vue({
 	    data: {
 	    	currentTab:'Animal',
 	    	tabs:['Animal','Vehicle','Fruit'],
-	    	animallist:[{id: '1', name : 'baboon monkey', effect : 'audio/animal/baboon_monkey.mp3', speak : 'audio/animal_nm_en/baboon_monkey_en.wav', jpg : 'images/animal_pic/baboon_monkey.jpg', description : 'This is a baboon monkey.' }]
+	    	animallist:[{id: '1', name : 'baboon monkey', effect : 
+'audio/animal/baboon_monkey.mp3', speak : 
+'audio/animal_nm_en/baboon_monkey_en.mp3', jpg : 
+'images/animal_pic/baboon_monkey.jpg', description : 'This is a baboon monkey.' }]
 	    },
 	    mounted:  function(){
 			//this.getAjaxAnimals();
