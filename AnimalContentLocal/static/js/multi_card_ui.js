@@ -134,13 +134,23 @@ var vm = new Vue({
 	    data: {
 	    	currentTab:'Animal',
 	    	tabs:['Animal','Vehicle','Fruit'],
-	    	animallist:[{id: '1', name : 'baboon monkey', effect : 
-'audio/animal/baboon_monkey.mp3', speak : 
-'audio/animal_nm_en/baboon_monkey_en.mp3', jpg : 
-'images/animal_pic/baboon_monkey.jpg', description : 'This is a baboon monkey.' }]
+	    	animallist:[
+	    		{id: '1', name : 'baboon monkey', effect : 'audio/animal/baboon_monkey.mp3', speak : 'audio/animal_nm_en/baboon_monkey_en.mp3', jpg : 'images/animal_pic/baboon_monkey.jpg', description : 'This is a baboon monkey.' },
+	    		{id: '4', name : 'Baboon', effect : 'audio/animal/baboon1.mp3', speak : 'audio/animal_nm_en/baboon_en.mp3', jpg : 'images/animal_pic/baboon.jpg', description : 'This is a baboon.' },
+	    		{id: '5', name : 'Bear', effect : 'audio/animal/Bear1.mp3', speak : 'audio/animal_nm_en/bear_en.mp3', jpg : 'images/animal_pic/bear.jpg', description : 'This is a bear.' },
+	    		{id: '6', name : 'Dog', effect : 'audio/animal/dog.mp3', speak : 'audio/animal_nm_en/dog_en.mp3', jpg : 'images/animal_pic/dog.jpg', description : 'This is a dog.' },
+	    		{id: '7', name : 'Elephant', effect : 'audio/animal/elephant8.mp3', speak : 'audio/animal_nm_en/elephant_en.mp3', jpg : 'images/animal_pic/elephant.jpg', description : 'This is an elephant.' },
+	    		{id: '8', name : 'Monkey', effect : 'audio/animal/monkeys1.mp3', speak : 'audio/animal_nm_en/monkey_en.mp3', jpg : 'images/animal_pic/monkey.jpg', description : 'This is a monkey.' },
+	    		{id: '9', name : 'Tiger', effect : 'audio/animal/Tiger6.mp3', speak : 'audio/animal_nm_en/tiger_en.mp3', jpg : 'images/animal_pic/tiger.jpg', description : 'This is a tiger.' },
+	    		{id: '10', name : 'Penguin', effect : 'audio/animal/penguin3.mp3', speak : 'audio/animal_nm_en/penguin_en.mp3', jpg : 'images/animal_pic/penguin.jpg', description : 'This is a penguin.' },
+	    		{id: '11', name : 'Lion', effect : 'audio/animal/lion.mp3', speak : 'audio/animal_nm_en/lion_en.mp3', jpg : 'images/animal_pic/lion.jpg', description : 'This is a lion.' },
+	    		{id: '12', name : 'Zebra', effect : 'audio/animal/zebra3.mp3', speak : 'audio/animal_nm_en/zebra_en.mp3', jpg : 'images/animal_pic/zebra.jpg', description : 'This is a zebra.' },
+	    		{id: '13', name : 'Jaguar', effect : 'audio/animal/Jaguar3.mp3', speak : 'audio/animal_nm_en/jaguar_en.mp3', jpg : 'images/animal_pic/jaguar.jpg', description : 'This is a jaguar.' }
+	    	]
 	    },
 	    mounted:  function(){
 			//this.getAjaxAnimals();
+			onLoad();
 		},
 	    computed:{
 	    	currentTabComponent:function(){
