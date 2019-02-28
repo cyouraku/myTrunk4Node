@@ -13,8 +13,8 @@ var app = express();
 app.use(express.static("HappyChatClient"));
 //app.listen(8887,'192.168.56.201');
 //app.listen(8080,'192.168.11.110');
-//app.listen(8080,'localhost');
-app.listen(8080,'192.168.56.201');
+app.listen(8080,'localhost');
+//app.listen(8080,'192.168.56.201');
 console.log("HTML Server Started!Port 8080");
 
 
